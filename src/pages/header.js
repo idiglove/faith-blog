@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import './../css/style.css';
 import { Helmet } from 'react-helmet';
+import Link from 'gatsby-link'
 
 const Header = () => (
     <div>
@@ -20,7 +21,7 @@ const Header = () => (
                         <Col><h1 className="header-title"><a href="https://idiglove.github.io">Faith Morante</a></h1></Col>
                         <Col className="home-link">
                             <h1 className="">
-                                <a href="/">Home</a>
+                                <Link to="/">Home</Link>
                             </h1>
                         </Col>
                     </Row>
