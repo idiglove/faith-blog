@@ -1,0 +1,65 @@
+.sticky-header {
+  height: 120px;
+}
+
+.header-root {
+  background-color: white;
+  height: 120px;
+}
+
+.header-container {
+  max-width: none !important;
+  margin: 0 10px 10px 10px;
+  padding: 20px !important;
+}
+.header-container .home-link {
+  text-align: right;
+}
+.header-container .home-link a {
+  color: #212529;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.header-container .home-link a:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.header-navbar {
+  float: right;
+}
+
+.header-title a {
+  color: #212529;
+}
+.header-title a:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 50px;
+}
+.content .main-title {
+  font-size: 32px;
+  color: #b948ff;
+  margin-bottom: 30px;
+}
+.content .post-count {
+  font-size: 20px;
+}
+.content .blog-title {
+  color: #212529;
+  font-size: 22px;
+  text-decoration: none;
+}
+.content .blog-title:hover {
+  text-decoration: none;
+  color: #b948ff;
+}
+.content .blog-title .blog-date {
+  font-size: 15px;
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

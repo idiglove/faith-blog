@@ -1,0 +1,74 @@
+.sticky-header{
+    height: 120px;
+}
+
+.header-root {
+    background-color: white;
+    height: 120px;
+}
+
+.header-container{
+    max-width: none !important;
+    margin: 0 10px 10px 10px;
+    padding: 20px !important;
+
+    .home-link {
+        text-align: right;
+
+        a {
+            color: #212529;
+            margin-right: 30px;
+            font-size: 20px;
+    
+            &:hover {
+                color: #212529;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.header-navbar {
+    float: right;
+}
+
+.header-title {
+    a {
+        color: #212529;
+
+        &:hover {
+            color: #212529;
+            text-decoration: none;
+        }
+    }
+}
+
+.content {
+    padding: 0 50px; 
+
+    .main-title {
+        font-size: 32px;
+        color: #b948ff;
+        margin-bottom: 30px;
+    }
+
+    .post-count {
+        font-size: 20px;
+    }
+
+    .blog-title {
+        color: #212529;
+        font-size: 22px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+            color: #b948ff;
+        }
+
+        .blog-date {
+            font-size: 15px;
+            color: gray;
+        }
+    }
+}
